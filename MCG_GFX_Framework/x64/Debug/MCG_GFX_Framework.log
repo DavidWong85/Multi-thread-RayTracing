@@ -1,0 +1,20 @@
+﻿  MCG_GFX_Lib.cpp
+Main.obj : error LNK2019: unresolved external symbol SDL_FreeSurface referenced in function SDL_main
+Main.obj : error LNK2019: unresolved external symbol SDL_RenderCopy referenced in function SDL_main
+Main.obj : error LNK2019: unresolved external symbol SDL_DestroyTexture referenced in function SDL_main
+Main.obj : error LNK2019: unresolved external symbol SDL_GetTicks referenced in function "void __cdecl StartTime(void)" (?StartTime@@YAXXZ)
+MCG_GFX_Lib.obj : error LNK2001: unresolved external symbol SDL_GetTicks
+MCG_GFX_Lib.obj : error LNK2019: unresolved external symbol SDL_CreateRGBSurfaceFrom referenced in function "void __cdecl MCG::createFrameBuffer(void)" (?createFrameBuffer@MCG@@YAXXZ)
+MCG_GFX_Lib.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function "bool __cdecl MCG::Init(struct glm::tvec2<int,0>)" (?Init@MCG@@YA_NU?$tvec2@H$0A@@glm@@@Z)
+MCG_GFX_Lib.obj : error LNK2019: unresolved external symbol SDL_DestroyWindow referenced in function "void __cdecl MCG::Cleanup(void)" (?Cleanup@MCG@@YAXXZ)
+MCG_GFX_Lib.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function "bool __cdecl MCG::ProcessFrame(void)" (?ProcessFrame@MCG@@YA_NXZ)
+MCG_GFX_Lib.obj : error LNK2019: unresolved external symbol SDL_WaitEvent referenced in function "int __cdecl MCG::ShowAndHold(void)" (?ShowAndHold@MCG@@YAHXZ)
+MCG_GFX_Lib.obj : error LNK2019: unresolved external symbol SDL_CreateRenderer referenced in function "bool __cdecl MCG::Init(struct glm::tvec2<int,0>)" (?Init@MCG@@YA_NU?$tvec2@H$0A@@glm@@@Z)
+MCG_GFX_Lib.obj : error LNK2019: unresolved external symbol SDL_CreateTextureFromSurface referenced in function "void __cdecl MCG::createTexture(void)" (?createTexture@MCG@@YAXXZ)
+MCG_GFX_Lib.obj : error LNK2019: unresolved external symbol SDL_SetRenderDrawColor referenced in function "void __cdecl MCG::SetBackground(struct glm::tvec3<int,0>)" (?SetBackground@MCG@@YAXU?$tvec3@H$0A@@glm@@@Z)
+MCG_GFX_Lib.obj : error LNK2019: unresolved external symbol SDL_RenderClear referenced in function "void __cdecl MCG::SetBackground(struct glm::tvec3<int,0>)" (?SetBackground@MCG@@YAXU?$tvec3@H$0A@@glm@@@Z)
+MCG_GFX_Lib.obj : error LNK2019: unresolved external symbol SDL_RenderPresent referenced in function "bool __cdecl MCG::ProcessFrame(void)" (?ProcessFrame@MCG@@YA_NXZ)
+MCG_GFX_Lib.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function "bool __cdecl MCG::Init(struct glm::tvec2<int,0>)" (?Init@MCG@@YA_NU?$tvec2@H$0A@@glm@@@Z)
+MCG_GFX_Lib.obj : error LNK2019: unresolved external symbol SDL_Quit referenced in function "void __cdecl MCG::Cleanup(void)" (?Cleanup@MCG@@YAXXZ)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+D:\University Works\3rd Year\Graphics and Computational Programming\ParallelRayTracing\ParallelRayTracing\Program\x64\Debug\MCG_GFX_Framework.exe : fatal error LNK1120: 17 unresolved externals
